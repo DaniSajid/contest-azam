@@ -2,7 +2,6 @@
   height: 550px;
   width: 100%;
   object-fit: cover;
- 
 }
 .img-carousel-short {
   height: 110px !important;
@@ -10,4 +9,30 @@
   background: none !important;
   object-fit: cover;
   border-radius: 15px;
+}
+.pages-top {
+  height: 40vh;
+  background-size: cover;
+  background-image: linear-gradient(
+      to right,
+      rgba(119, 255, 0, 0.712),
+      rgba(0, 0, 0, 0.309),
+      rgba(249, 237, 7, 0)
+    ),
+    url(/Assest/img/s1.webp);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.des {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.map{
+  height: 490px !important;
+  width: 100% !important;
+  display: flex;
+  justify-content: center;
 }

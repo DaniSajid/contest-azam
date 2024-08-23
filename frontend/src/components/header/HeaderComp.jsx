@@ -1,17 +1,17 @@
 import ItemsComp from "./ItemsComp";
-import {  IconButton } from "@mui/material";
-import Badge from '@mui/material/Badge';
-import { styled } from '@mui/material/styles';
-import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+import { IconButton } from "@mui/material";
+import Badge from "@mui/material/Badge";
+import { styled } from "@mui/material/styles";
+import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import BtnComp from "../reusable/BtnComp";
 import { Link } from "react-router-dom";
 
 const StyledBadge = styled(Badge)(({ theme }) => ({
-  '& .MuiBadge-badge': {
+  "& .MuiBadge-badge": {
     right: -3,
     top: 13,
     border: `2px solid ${theme.palette.background.paper}`,
-    padding: '0 4px',
+    padding: "0 4px",
   },
 }));
 
@@ -20,21 +20,46 @@ const HeaderComp = () => {
     <header className="p-3  border-bottom">
       <div className="container">
         <div className="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-          <a href="/" className="d-flex align-items-center mb-2 mb-lg-0 link-body-emphasis text-decoration-none">
+          <a
+            href="/"
+            className="d-flex align-items-center mb-2 mb-lg-0 link-body-emphasis text-decoration-none"
+          >
             Navbar
           </a>
 
           <ul className="nav col-12 col-lg-auto mx-lg-auto mb-2 justify-content-center mb-md-0">
             <ItemsComp path={"/"} name={"Home"} />
-            <ItemsComp path={"/"} name={"Category"} />
-            <ItemsComp path={"/"} name={"Shop"} />
+            <li className="nav-item dropdown">
+              <Link
+                className="nav-link dropdown-toggle text-dark"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Category
+              </Link>
+              <ul className="dropdown-menu">
+                <ItemsComp path={"/indoor"}  name={"Indoor"} />
+                <ItemsComp path={"/outdoor"}  name={"Outdoor"} />
+                <ItemsComp path={"/succulent"}  name={"Succulent"} />
+                <ItemsComp path={"/floweringshrubs"}  name={"Flowering Shrubs"} />
+              </ul>
+            </li>
             <ItemsComp path={"/about"} name={"About"} />
             <ItemsComp path={"/contact"} name={"Contact"} />
-            <ItemsComp path={"/contact"} name={"Feedback"} />
+            <ItemsComp path={"/feedback"} name={"Feedback"} />
           </ul>
 
-          <form className="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
-            <input type="search" className="form-control" placeholder="Search..." aria-label="Search" />
+          <form
+            className="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3"
+            role="search"
+          >
+            <input
+              type="search"
+              className="form-control"
+              placeholder="Search..."
+              aria-label="Search"
+            />
           </form>
 
           <IconButton aria-label="cart">
@@ -43,8 +68,8 @@ const HeaderComp = () => {
             </StyledBadge>
           </IconButton>
           <Link to={"/account"}>
-          <BtnComp variant={"contained"} className={"mx-2"} name={"Login"}/>
-          </Link>  
+            <BtnComp variant={"contained"} className={"mx-2"} name={"Login"} />
+          </Link>
           {/* <div className="dropdown text-end mx-2">
             <a href="#" className="d-block link-body-emphasis text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
               <img src="https://github.com/mdo.png" alt="mdo" width="32" height="32" className="rounded-circle" />

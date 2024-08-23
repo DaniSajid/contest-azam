@@ -2,6 +2,7 @@
 // import { useState } from 'react';  
 import "../css/contact.css";
 import BtnComp from "../reusable/BtnComp";
+import PagesTopComp from "../reusable/PagesTopComp";
 
 const ContactComp = () => {
   // const [name, setName] = useState('');
@@ -17,6 +18,27 @@ const ContactComp = () => {
   //};
 
   return (
+    <>
+    <PagesTopComp name={"Contact Us"} pageName={"Contact Us"} pagePath={"/contact"} />
+    <div className="px-4  my-5 text-center">
+        <h1 className="display-5 fw-bold text-body-emphasis">Contact Us</h1>
+        <div className="col-lg-6 mx-auto">
+            <p className="lead mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the worlds most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+        </div>
+    </div>
+    {/* map  */}
+<div className="map">
+<iframe 
+  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14477.256537922056!2d67.1518249!3d24.8872643!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb339999415e0c3%3A0x36742eee0fd9c291!2sAptech%20Metro%20Star%20Gate!5e0!3m2!1sen!2s!4v1691647397756!5m2!1sen!2s" 
+  width="600" 
+  height="450" 
+  style={{ border: 0 }} 
+  allowFullScreen 
+  loading="lazy" 
+  referrerPolicy="no-referrer-when-downgrade">
+</iframe>
+</div>
+    
     <div className="container container-contact">
     <div className="row">
       <div className="col-md-6">
@@ -69,6 +91,7 @@ const ContactComp = () => {
       </div>
     </div>
   </div>
+  </>
   );
 };
 
