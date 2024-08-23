@@ -1,10 +1,11 @@
+import PagesTopComp from "../../reusable/PagesTopComp"
 
 
 const IndoorComp = () => {
   return (
-    <div>
-      IndoorComp
-    </div>
+ <>
+ <PagesTopComp name={"Indoor"} pageName={"Indoor"} pagePath={"/indoor"} />
+ </>
   )
 }
 

@@ -1,10 +1,11 @@
+import PagesTopComp from "../../reusable/PagesTopComp"
 
 
 const OutdoorComp = () => {
   return (
-    <div>
-      OutdoorComp
-    </div>
+   <>
+   <PagesTopComp name={"Outdoor"} pageName={"Outdoor"} pagePath={"/outdoor"} />
+   </>
   )
 }
 

@@ -1,9 +1,10 @@
+import PagesTopComp from "../../reusable/PagesTopComp"
 
 const FloweringComp = () => {
   return (
-    <div>
-      FloweringComp
-    </div>
+   <>
+   <PagesTopComp name={"Flowering Shrubs"} pageName={"Flowering Shrubs"} pagePath={"/floweringshrubs"} />
+   </>
   )
 }
 

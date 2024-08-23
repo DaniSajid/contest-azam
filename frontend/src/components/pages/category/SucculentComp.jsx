@@ -1,10 +1,11 @@
+import PagesTopComp from "../../reusable/PagesTopComp"
 
 
 const SucculentComp = () => {
   return (
-    <div>
-      SucculentComp
-    </div>
+    <>
+    <PagesTopComp name={"Succulent"} pageName={"Succulent"} pagePath={"/succulent"} />
+    </>
   )
 }
 
