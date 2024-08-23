@@ -435,5 +435,32 @@ let indoor = [
       "addToCartBtn": "Add to Cart",
       "viewBtn": "View"
     },
-]
-export { succulent,outdoor,indoor };
+    {
+      "image": "flowering_shrub_10.jpg",
+      "title": "Weigela",
+      "rating": 4.7,
+      "price": 26.99,
+      "description": "A colorful flowering shrub with trumpet-shaped flowers, perfect for adding color to garden borders.",
+      "addToCartBtn": "Add to Cart",
+      "viewBtn": "View"
+    },
+    {
+      "image": "flowering_shrub_11.jpg",
+      "title": "Spirea",
+      "rating": 4.8,
+      "price": 21.99,
+      "description": "A low-maintenance flowering shrub with clusters of small white or pink flowers.",
+      "addToCartBtn": "Add to Cart",
+      "viewBtn": "View"
+    },
+    {
+      "image": "flowering_shrub_12.jpg",
+      "title": "Viburnum",
+      "rating": 4.9,
+      "price": 32.99,
+      "description": "A versatile flowering shrub with attractive foliage and clusters of white flowers.",
+      "addToCartBtn": "Add to Cart",
+      "viewBtn": "View"
+    }
+  ]
+export { succulent,outdoor,indoor,flowering };
