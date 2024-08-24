@@ -464,3 +464,107 @@ let indoor = [
     }
   ]
 export { succulent,outdoor,indoor,flowering };
+
+
+// {
+//     "categoryName": "Indoor",
+//     "products": [
+//       {
+//         "image": "indoor_plant_1.jpg",
+//         "title": "Snake Plant",
+//         "rating": 4.8,
+//         "price": 19.99,
+//         "description": "A hardy indoor plant known for its upright, sword-like leaves, perfect for low light conditions.",
+//         "addToCartBtn": "Add to Cart",
+//         "viewBtn": "View"
+//       },
+//       {
+//         "image": "indoor_plant_2.jpg",
+//         "title": "Monstera Deliciosa",
+//         "rating": 4.9,
+//         "price": 34.99,
+//         "description": "A popular indoor plant with large, split leaves, ideal for adding a tropical touch to your space.",
+//         "addToCartBtn": "Add to Cart",
+//         "viewBtn": "View"
+//       },
+//       {
+//         "image": "indoor_plant_3.jpg",
+//         "title": "Peace Lily",
+//         "rating": 4.7,
+//         "price": 24.99,
+//         "description": "A graceful indoor plant with white blooms, known for its air-purifying properties.",
+//         "addToCartBtn": "Add to Cart",
+//         "viewBtn": "View"
+//       },
+//       {
+//         "image": "indoor_plant_4.jpg",
+//         "title": "ZZ Plant",
+//         "rating": 4.6,
+//         "price": 22.99,
+//         "description": "A low-maintenance indoor plant with glossy leaves, perfect for beginners and low light areas.",
+//         "addToCartBtn": "Add to Cart",
+//         "viewBtn": "View"
+//       },
+//       {
+//         "image": "indoor_plant_5.jpg",
+//         "title": "Fiddle Leaf Fig",
+//         "rating": 4.8,
+//         "price": 39.99,
+//         "description": "A trendy indoor plant with large, violin-shaped leaves, ideal for modern interiors.",
+//         "addToCartBtn": "Add to Cart",
+//         "viewBtn": "View"
+//       },
+//       {
+//         "image": "indoor_plant_6.jpg",
+//         "title": "Spider Plant",
+//         "rating": 4.7,
+//         "price": 18.99,
+//         "description": "A resilient indoor plant with arching leaves and small plantlets, perfect for hanging baskets.",
+//         "addToCartBtn": "Add to Cart",
+//         "viewBtn": "View"
+//       },
+//       {
+//         "image": "indoor_plant_7.jpg",
+//         "title": "Pothos",
+//         "rating": 4.9,
+//         "price": 16.99,
+//         "description": "A versatile indoor plant with trailing vines, known for its ability to thrive in various conditions.",
+//         "addToCartBtn": "Add to Cart",
+//         "viewBtn": "View"
+//       },
+//       {
+//         "image": "indoor_plant_8.jpg",
+//         "title": "Rubber Plant",
+//         "rating": 4.8,
+//         "price": 29.99,
+//         "description": "A striking indoor plant with large, glossy leaves, perfect for adding a touch of green to any room.",
+//         "addToCartBtn": "Add to Cart",
+//         "viewBtn": "View"
+//       },
+//       {
+//         "image": "indoor_plant_9.jpg",
+//         "title": "Chinese Evergreen",
+//         "rating": 4.6,
+//         "price": 21.99,
+//         "description": "A hardy indoor plant with attractive, variegated leaves, ideal for low light environments.",
+//         "addToCartBtn": "Add to Cart",
+//         "viewBtn": "View"
+//       },
+//       {
+//         "image": "indoor_plant_10.jpg",
+//         "title": "Calathea",
+//         "rating": 4.7,
+//         "price": 26.99,
+//         "description": "An indoor plant with stunning, patterned leaves, known for its ability to close at night.",
+//         "addToCartBtn": "Add to Cart",
+//         "viewBtn": "View"
+//       },
+//       {
+//         "image": "indoor_plant_11.jpg",
+//         "title": "Dracaena",
+//         "rating": 4.8,
+//         "price": 23.99,
+//         "description": "A resilient indoor plant with long, slender
+  
+//       }
+//     ]}

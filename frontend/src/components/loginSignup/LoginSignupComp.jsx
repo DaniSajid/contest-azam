@@ -41,7 +41,7 @@ const LoginSignupComp = () => {
   };
   function loginUser(e) {
     e.preventDefaul();
-    fetch("http://localhost:3000/api/v1/user/login", {
+    fetch("http://localhost:3000//user/login", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -52,7 +52,7 @@ const LoginSignupComp = () => {
       .then((data) => {
         console.log("response data:", data);
 
-        if (data.status === "User created successfully" && data.token) {
+        if (data.status === "User created successfully!" && data.token) {
           Cookies.set("token", data.token, { expires: 2 / 24 });
           alert("Login Successfully");
           navigate("/");
@@ -67,7 +67,7 @@ const LoginSignupComp = () => {
   }
   function registerUser(e) {
     e.preventDefault();
-    fetch("http://localhost:3000/api/v1/user/register", {
+    fetch("http://localhost:3000/user/register", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -78,7 +78,7 @@ const LoginSignupComp = () => {
       .then((data) => {
         console.log("Response Data:", data);
         alert(data.message);
-        if (data.message === "User created successfully" && data.token) {
+        if (data.message === "User created successfully!" && data.token) {
           Cookies.set("token", data.token, { expires: 2 / 24 });
           navigate("/");
         }

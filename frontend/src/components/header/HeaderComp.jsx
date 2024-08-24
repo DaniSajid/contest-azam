@@ -4,7 +4,8 @@ import Badge from "@mui/material/Badge";
 import { styled } from "@mui/material/styles";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import BtnComp from "../reusable/BtnComp";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
+import Cookies from "js-cookie";
 
 const StyledBadge = styled(Badge)(({ theme }) => ({
   "& .MuiBadge-badge": {
@@ -16,6 +17,13 @@ const StyledBadge = styled(Badge)(({ theme }) => ({
 }));
 
 const HeaderComp = () => {
+  const navigate = useNavigate();
+  const token = Cookies.get("token");
+
+  const handleSignOut = () => {
+    Cookies.remove("token");
+    navigate("/account"); 
+  };
   return (
     <header className="p-3  border-bottom">
       <div className="container">
@@ -67,10 +75,7 @@ const HeaderComp = () => {
               <ShoppingCartIcon />
             </StyledBadge>
           </IconButton>
-          <Link to={"/account"}>
-            <BtnComp variant={"contained"} className={"mx-2"} name={"Login"} />
-          </Link>
-          {/* <div className="dropdown text-end mx-2">
+          {token ?    <div className="dropdown text-end mx-2">
             <a href="#" className="d-block link-body-emphasis text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
               <img src="https://github.com/mdo.png" alt="mdo" width="32" height="32" className="rounded-circle" />
             </a>
@@ -79,9 +84,14 @@ const HeaderComp = () => {
               <li><a className="dropdown-item" href="#">Settings</a></li>
               <li><a className="dropdown-item" href="#">Profile</a></li>
               <li><hr className="dropdown-divider" /></li>
-              <li><a className="dropdown-item" href="#">Sign out</a></li>
+              <li><Link className="dropdown-item" onClick={handleSignOut}>Sign out</Link></li>
             </ul>
-          </div> */}
+          </div>
+          :
+          <Link to={"/account"}>
+            <BtnComp variant={"contained"} className={"mx-2"} name={"Login"} />
+          </Link>}
+        
         </div>
       </div>
     </header>
