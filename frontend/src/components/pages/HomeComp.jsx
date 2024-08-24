@@ -15,6 +15,7 @@ import PaidIcon from "@mui/icons-material/Paid";
 import WorkHistoryIcon from "@mui/icons-material/WorkHistory";
 import CarouselComp from "../carousel/CarouselComp";
 import CardComp from "./card/CardComp";
+import { flowering, indoor, outdoor, succulent } from "../../data";
 
 function a11yProps(index) {
   return {
@@ -105,37 +106,33 @@ const HomeComp = () => {
           <TabPanel value="0" dir={theme.direction}>
             <h1 className="text-center">Indoor</h1>
             <Grid container columns={12} spacing={2}>
-            <CardComp/>
-            <CardComp/>
-            <CardComp/>
-            <CardComp/>
+            { indoor.map((item,index)=>(
+            <CardComp key={index} image={item.image} name={item.name} rating={item.rating} price={item.price} description={item.description} addToCartBtn={item.addToCartBtn} viewBtn={item.viewBtn} />
+          ))}
             </Grid>
           </TabPanel>
           <TabPanel value="1" dir={theme.direction}>
           <h1 className="text-center">Outdoor</h1>
           <Grid container columns={12} spacing={2}>
-            <CardComp/>
-            <CardComp/>
-            <CardComp/>
-            <CardComp/>
+          { outdoor.map((item,index)=>(
+            <CardComp key={index} image={item.image} name={item.name} rating={item.rating} price={item.price} description={item.description} addToCartBtn={item.addToCartBtn} viewBtn={item.viewBtn} />
+          ))}
             </Grid>
           </TabPanel>
           <TabPanel value="2" dir={theme.direction}>
           <h1 className="text-center">Succulent</h1>
           <Grid container columns={12} spacing={2}>
-            <CardComp/>
-            <CardComp/>
-            <CardComp/>
-            <CardComp/>
+          { succulent.map((item,index)=>(
+            <CardComp key={index} image={item.image} name={item.name} rating={item.rating} price={item.price} description={item.description} addToCartBtn={item.addToCartBtn} viewBtn={item.viewBtn} />
+          ))}
             </Grid>
           </TabPanel>
           <TabPanel value="3" dir={theme.direction}>
           <h1 className="text-center">Flowering Shrubs</h1>
           <Grid container columns={12} spacing={2}>
-            <CardComp/>
-            <CardComp/>
-            <CardComp/>
-            <CardComp/>
+          { flowering.map((item,index)=>(
+            <CardComp key={index} image={item.image} name={item.name} rating={item.rating} price={item.price} description={item.description} addToCartBtn={item.addToCartBtn} viewBtn={item.viewBtn} />
+          ))}
             </Grid>
           </TabPanel>
         </TabContext>

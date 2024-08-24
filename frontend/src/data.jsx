@@ -1,8 +1,8 @@
 let succulent = [
   {
-    image: "succulent_plant_1.jpg",
+    image: "succulent/succulent_plant_1.jpg",
     title: "Aloe Vera",
-    rating: 4.8,
+    rating: 4,
     price: 19.99,
     description:
       "A versatile succulent that is easy to care for and has medicinal properties.",
@@ -10,7 +10,7 @@ let succulent = [
     viewBtn: "View",
   },
   {
-    image: "succulent_plant_2.jpg",
+    image: "succulent/succulent_plant_2.jpg",
     title: "Echeveria",
     rating: 4.7,
     price: 15.99,
@@ -20,9 +20,9 @@ let succulent = [
     viewBtn: "View",
   },
   {
-    image: "succulent_plant_3.jpg",
+    image: "succulent/succulent_plant_3.jpg",
     title: "Jade Plant",
-    rating: 4.9,
+    rating: 4.2,
     price: 24.99,
     description:
       "A popular succulent with thick, fleshy leaves, known for bringing good luck and prosperity.",
@@ -30,7 +30,7 @@ let succulent = [
     viewBtn: "View",
   },
   {
-    image: "succulent_plant_4.jpg",
+    image: "succulent/succulent_plant_4.jpg",
     title: "Sedum",
     rating: 4.6,
     price: 12.99,
@@ -40,7 +40,7 @@ let succulent = [
     viewBtn: "View",
   },
   {
-    image: "succulent_plant_5.jpg",
+    image: "succulent/succulent_plant_5.jpg",
     title: "String of Pearls",
     rating: 4.8,
     price: 18.99,
@@ -50,7 +50,7 @@ let succulent = [
     viewBtn: "View",
   },
   {
-    image: "succulent_plant_6.jpg",
+    image: "succulent/succulent_plant_6.jpg",
     title: "Agave",
     rating: 4.7,
     price: 22.99,
@@ -60,7 +60,7 @@ let succulent = [
     viewBtn: "View",
   },
   {
-    image: "succulent_plant_7.jpg",
+    image: "succulent/succulent_plant_7.jpg",
     title: "Burro's Tail",
     rating: 4.6,
     price: 16.99,
@@ -70,7 +70,7 @@ let succulent = [
     viewBtn: "View",
   },
   {
-    image: "succulent_plant_8.jpg",
+    image: "succulent/succulent_plant_8.jpg",
     title: "Crown of Thorns",
     rating: 4.5,
     price: 14.99,
@@ -80,7 +80,7 @@ let succulent = [
     viewBtn: "View",
   },
   {
-    image: "succulent_plant_9.jpg",
+    image: "succulent/succulent_plant_9.jpg",
     title: "Haworthia",
     rating: 4.7,
     price: 12.99,
@@ -90,7 +90,7 @@ let succulent = [
     viewBtn: "View",
   },
   {
-    image: "succulent_plant_10.jpg",
+    image: "succulent/succulent_plant_10.jfif",
     title: "Panda Plant",
     rating: 4.6,
     price: 13.99,
@@ -100,9 +100,9 @@ let succulent = [
     viewBtn: "View",
   },
   {
-    image: "succulent_plant_11.jpg",
+    image: "succulent/succulent_plant_11.jpg",
     title: "Zebra Plant",
-    rating: 4.8,
+    rating: 3,
     price: 14.99,
     description:
       "A striking succulent with dark green leaves and white stripes, ideal for low light conditions.",
@@ -110,7 +110,7 @@ let succulent = [
     viewBtn: "View",
   },
   {
-    image: "succulent_plant_12.jpg",
+    image: "succulent/succulent_plant_12.jpg",
     title: "Golden Barrel Cactus",
     rating: 4.9,
     price: 19.99,
@@ -123,7 +123,7 @@ let succulent = [
 
 let outdoor = [
   {
-    image: "outdoor_plant_1.jpg",
+    image: "outdoor/outdoor_plant_1.jpg",
     title: "Rose Bush",
     rating: 4.9,
     price: 39.99,
@@ -133,7 +133,7 @@ let outdoor = [
     viewBtn: "View",
   },
   {
-    image: "outdoor_plant_2.jpg",
+    image: "outdoor/outdoor_plant_2.jpg",
     title: "Hibiscus",
     rating: 4.6,
     price: 34.99,
@@ -143,7 +143,7 @@ let outdoor = [
     viewBtn: "View",
   },
   {
-    image: "outdoor_plant_3.jpg",
+    image: "outdoor/outdoor_plant_3.jpg",
     title: "Lavender",
     rating: 4.8,
     price: 22.99,
@@ -153,7 +153,7 @@ let outdoor = [
     viewBtn: "View",
   },
   {
-    image: "outdoor_plant_4.jpg",
+    image: "outdoor/outdoor_plant_4.png",
     title: "Bougainvillea",
     rating: 4.7,
     price: 29.99,
@@ -163,9 +163,9 @@ let outdoor = [
     viewBtn: "View",
   },
   {
-    image: "outdoor_plant_5.jpg",
+    image: "outdoor/outdoor_plant_5.png",
     title: "Jasmine",
-    rating: 4.9,
+    rating: 3.5,
     price: 24.99,
     description:
       "A sweetly scented outdoor plant with delicate white or yellow flowers, perfect for trellises and pergolas.",
@@ -173,7 +173,7 @@ let outdoor = [
     viewBtn: "View",
   },
   {
-    image: "outdoor_plant_6.jpg",
+    image: "outdoor/outdoor_plant_6.jpg",
     title: "Hydrangea",
     rating: 4.8,
     price: 34.99,
@@ -183,7 +183,7 @@ let outdoor = [
     viewBtn: "View",
   },
   {
-    image: "outdoor_plant_7.jpg",
+    image: "outdoor/outdoor_plant_7.jpg",
     title: "Gardenia",
     rating: 4.7,
     price: 27.99,
@@ -193,7 +193,7 @@ let outdoor = [
     viewBtn: "View",
   },
   {
-    image: "outdoor_plant_8.jpg",
+    image: "outdoor/outdoor_plant_8.png",
     title: "Oleander",
     rating: 4.6,
     price: 29.99,
@@ -203,7 +203,7 @@ let outdoor = [
     viewBtn: "View",
   },
   {
-    image: "outdoor_plant_9.jpg",
+    image: "outdoor/outdoor_plant_9.jpg",
     title: "Japanese Maple",
     rating: 4.8,
     price: 44.99,
@@ -213,7 +213,7 @@ let outdoor = [
     viewBtn: "View",
   },
   {
-    image: "outdoor_plant_10.jpg",
+    image: "outdoor/outdoor_plant_10.jpg",
     title: "Camellia",
     rating: 4.7,
     price: 36.99,
@@ -223,7 +223,7 @@ let outdoor = [
     viewBtn: "View",
   },
   {
-    image: "outdoor_plant_11.jpg",
+    image: "outdoor/outdoor_plant_11.jpg",
     title: "Rhododendron",
     rating: 4.8,
     price: 38.99,
@@ -233,9 +233,9 @@ let outdoor = [
     viewBtn: "View",
   },
   {
-    image: "outdoor_plant_12.jpg",
+    image: "outdoor/outdoor_plant_12.jpg",
     title: "Wisteria",
-    rating: 4.9,
+    rating: 4,
     price: 42.99,
     description:
       "A climbing outdoor plant with cascading purple flowers, perfect for trellises and pergolas.",
@@ -245,326 +245,224 @@ let outdoor = [
 ]
 let indoor = [
     {
-      "image": "indoor_plant_1.jpg",
-      "title": "Snake Plant",
-      "rating": 4.8,
-      "price": 29.99,
-      "description": "A hardy indoor plant that purifies air and requires minimal maintenance.",
-      "addToCartBtn": "Add to Cart",
-      "viewBtn": "View"
+      image: "indoor/indoor_plant_1.png",
+      title: "Snake Plant",
+      rating: 4.8,
+      price: 29.99,
+      description: "A hardy indoor plant that purifies air and requires minimal maintenance.",
+      addToCartBtn: "Add to Cart",
+      viewBtn: "View"
     },
     {
-      "image": "indoor_plant_2.jpg",
-      "title": "Peace Lily",
-      "rating": 4.7,
-      "price": 24.99,
-      "description": "A popular indoor plant known for its beautiful white flowers and air-purifying qualities.",
-      "addToCartBtn": "Add to Cart",
-      "viewBtn": "View"
+      image: "indoor/indoor_plant_2.png",
+      title: "Peace Lily",
+      rating: 4.7,
+      price: 24.99,
+      description: "A popular indoor plant known for its beautiful white flowers and air-purifying qualities.",
+      addToCartBtn: "Add to Cart",
+      viewBtn: "View"
     },
     {
-      "image": "indoor_plant_3.jpg",
-      "title": "Fiddle Leaf Fig",
-      "rating": 4.9,
-      "price": 49.99,
-      "description": "A stylish indoor plant with large, glossy leaves, perfect for adding a touch of greenery to any room.",
-      "addToCartBtn": "Add to Cart",
-      "viewBtn": "View"
+      image: "indoor/indoor_plant_3.png",
+      title: "Fiddle Leaf Fig",
+      rating: 4.9,
+      price: 49.99,
+      description: "A stylish indoor plant with large, glossy leaves, perfect for adding a touch of greenery to any room.",
+      addToCartBtn: "Add to Cart",
+      viewBtn: "View"
     },
     {
-      "image": "indoor_plant_4.jpg",
-      "title": "Spider Plant",
-      "rating": 4.6,
-      "price": 14.99,
-      "description": "An easy-to-care-for indoor plant that produces cascading leaves and air-purifying qualities.",
-      "addToCartBtn": "Add to Cart",
-      "viewBtn": "View"
+      image: "indoor/indoor_plant_4.png",
+      title: "Spider Plant",
+      rating: 4.6,
+      price: 14.99,
+      description: "An easy-to-care-for indoor plant that produces cascading leaves and air-purifying qualities.",
+      addToCartBtn: "Add to Cart",
+      viewBtn: "View"
     },
     {
-      "image": "indoor_plant_5.jpg",
-      "title": "Monstera Deliciosa",
-      "rating": 4.8,
-      "price": 39.99,
-      "description": "A trendy indoor plant with unique, split leaves that make it a statement piece in any room.",
-      "addToCartBtn": "Add to Cart",
-      "viewBtn": "View"
+      image: "indoor/indoor_plant_5.png",
+      title: "Monstera Deliciosa",
+      rating: 4.8,
+      price: 39.99,
+      description: "A trendy indoor plant with unique, split leaves that make it a statement piece in any room.",
+      addToCartBtn: "Add to Cart",
+      viewBtn: "View"
     },
     {
-      "image": "indoor_plant_6.jpg",
-      "title": "ZZ Plant",
-      "rating": 4.7,
-      "price": 22.99,
-      "description": "A low-maintenance indoor plant with waxy leaves, perfect for low-light environments.",
-      "addToCartBtn": "Add to Cart",
-      "viewBtn": "View"
+      image: "indoor/indoor_plant_6.png",
+      title: "ZZ Plant",
+      rating: 4.7,
+      price: 22.99,
+      description: "A low-maintenance indoor plant with waxy leaves, perfect for low-light environments.",
+      addToCartBtn: "Add to Cart",
+      viewBtn: "View"
     },
     {
-      "image": "indoor_plant_7.jpg",
-      "title": "Parlor Palm",
-      "rating": 4.7,
-      "price": 19.99,
-      "description": "A graceful indoor palm that adds a tropical feel to any space.",
-      "addToCartBtn": "Add to Cart",
-      "viewBtn": "View"
+      image: "indoor/indoor_plant_7.jpg",
+      title: "Parlor Palm",
+      rating: 4.7,
+      price: 19.99,
+      description: "A graceful indoor palm that adds a tropical feel to any space.",
+      addToCartBtn: "Add to Cart",
+      viewBtn: "View"
     },
     {
-      "image": "indoor_plant_8.jpg",
-      "title": "Boston Fern",
-      "rating": 4.5,
-      "price": 17.99,
-      "description": "A lush indoor fern that thrives in humid environments and adds a touch of greenery.",
-      "addToCartBtn": "Add to Cart",
-      "viewBtn": "View"
+      image: "indoor/indoor_plant_8.jpg",
+      title: "Boston Fern",
+      rating: 4.5,
+      price: 17.99,
+      description: "A lush indoor fern that thrives in humid environments and adds a touch of greenery.",
+      addToCartBtn: "Add to Cart",
+      viewBtn: "View"
     },
     {
-      "image": "indoor_plant_9.jpg",
-      "title": "Pothos",
-      "rating": 4.9,
-      "price": 12.99,
-      "description": "A versatile indoor plant with trailing vines, perfect for hanging baskets or shelves.",
-      "addToCartBtn": "Add to Cart",
-      "viewBtn": "View"
+      image: "indoor/indoor_plant_9.jpg",
+      title: "Pothos",
+      rating: 4.9,
+      price: 12.99,
+      description: "A versatile indoor plant with trailing vines, perfect for hanging baskets or shelves.",
+      addToCartBtn: "Add to Cart",
+      viewBtn: "View"
     },
     {
-      "image": "indoor_plant_10.jpg",
-      "title": "Rubber Plant",
-      "rating": 4.6,
-      "price": 34.99,
-      "description": "An elegant indoor plant with thick, glossy leaves that make a bold statement.",
-      "addToCartBtn": "Add to Cart",
-      "viewBtn": "View"
+      image: "indoor/indoor_plant_10.jpg",
+      title: "Rubber Plant",
+      rating: 4.6,
+      price: 34.99,
+      description: "An elegant indoor plant with thick, glossy leaves that make a bold statement.",
+      addToCartBtn: "Add to Cart",
+      viewBtn: "View"
     },
     {
-      "image": "indoor_plant_11.jpg",
-      "title": "Chinese Evergreen",
-      "rating": 4.7,
-      "price": 27.99,
-      "description": "A popular indoor plant with striking foliage that thrives in low light.",
-      "addToCartBtn": "Add to Cart",
-      "viewBtn": "View"
+      image: "indoor/indoor_plant_11.png",
+      title: "Chinese Evergreen",
+      rating: 4.7,
+      price: 27.99,
+      description: "A popular indoor plant with striking foliage that thrives in low light.",
+      addToCartBtn: "Add to Cart",
+      viewBtn: "View"
     },
     {
-      "image": "indoor_plant_12.jpg",
-      "title": "Calathea",
-      "rating": 4.6,
-      "price": 31.99,
-      "description": "An eye-catching indoor plant with intricately patterned leaves.",
-      "addToCartBtn": "Add to Cart",
-      "viewBtn": "View"
+      image: "indoor/indoor_plant_12.jpg",
+      title: "Calathea",
+      rating: 4.6,
+      price: 31.99,
+      description: "An eye-catching indoor plant with intricately patterned leaves.",
+      addToCartBtn: "Add to Cart",
+      viewBtn: "View"
     }
   ]
   let flowering = [
     {
-      "image": "flowering_shrub_1.jpg",
-      "title": "Azalea",
-      "rating": 4.9,
-      "price": 25.99,
-      "description": "A vibrant flowering shrub with colorful blooms, perfect for garden beds and borders.",
-      "addToCartBtn": "Add to Cart",
-      "viewBtn": "View"
+      image: "floweringshrubs/flowering_shrub_1.jpeg",
+      title: "Azalea",
+      rating: 4.9,
+      price: 25.99,
+      description: "A vibrant flowering shrub with colorful blooms, perfect for garden beds and borders.",
+      addToCartBtn: "Add to Cart",
+      viewBtn: "View"
     },
     {
-      "image": "flowering_shrub_2.jpg",
-      "title": "Lilac",
-      "rating": 4.8,
-      "price": 29.99,
-      "description": "A fragrant flowering shrub with stunning purple or white blooms, ideal for outdoor gardens.",
-      "addToCartBtn": "Add to Cart",
-      "viewBtn": "View"
+      image: "floweringshrubs/flowering_shrub_2.jpg",
+      title: "Lilac",
+      rating: 4.8,
+      price: 29.99,
+      description: "A fragrant flowering shrub with stunning purple or white blooms, ideal for outdoor gardens.",
+      addToCartBtn: "Add to Cart",
+      viewBtn: "View"
     },
     {
-      "image": "flowering_shrub_3.jpg",
-      "title": "Hydrangea",
-      "rating": 4.7,
-      "price": 34.99,
-      "description": "A popular flowering shrub with large, colorful flower heads that change color based on soil pH.",
-      "addToCartBtn": "Add to Cart",
-      "viewBtn": "View"
+      image: "floweringshrubs/flowering_shrub_3.jpg",
+      title: "Hydrangea",
+      rating: 4.7,
+      price: 34.99,
+      description: "A popular flowering shrub with large, colorful flower heads that change color based on soil pH.",
+      addToCartBtn: "Add to Cart",
+      viewBtn: "View"
     },
     {
-      "image": "flowering_shrub_4.jpg",
-      "title": "Camellia",
-      "rating": 4.6,
-      "price": 36.99,
-      "description": "A beautiful flowering shrub with glossy leaves and rose-like flowers that bloom in winter.",
-      "addToCartBtn": "Add to Cart",
-      "viewBtn": "View"
+      image: "floweringshrubs/flowering_shrub_4.jpg",
+      title: "Camellia",
+      rating: 4.6,
+      price: 36.99,
+      description: "A beautiful flowering shrub with glossy leaves and rose-like flowers that bloom in winter.",
+      addToCartBtn: "Add to Cart",
+      viewBtn: "View"
     },
     {
-      "image": "flowering_shrub_5.jpg",
-      "title": "Forsythia",
-      "rating": 4.8,
-      "price": 22.99,
-      "description": "A spring-flowering shrub with bright yellow flowers that bloom before the leaves emerge.",
-      "addToCartBtn": "Add to Cart",
-      "viewBtn": "View"
+      image: "floweringshrubs/flowering_shrub_5.jpg",
+      title: "Forsythia",
+      rating: 4.8,
+      price: 22.99,
+      description: "A spring-flowering shrub with bright yellow flowers that bloom before the leaves emerge.",
+      addToCartBtn: "Add to Cart",
+      viewBtn: "View"
     },
     {
-      "image": "flowering_shrub_6.jpg",
-      "title": "Rhododendron",
-      "rating": 4.9,
-      "price": 38.99,
-      "description": "A colorful flowering shrub with large clusters of flowers, ideal for woodland gardens.",
-      "addToCartBtn": "Add to Cart",
-      "viewBtn": "View"
+      image: "floweringshrubs/flowering_shrub_6.jpg",
+      title: "Rhododendron",
+      rating: 4.9,
+      price: 38.99,
+      description: "A colorful flowering shrub with large clusters of flowers, ideal for woodland gardens.",
+      addToCartBtn: "Add to Cart",
+      viewBtn: "View"
     },
     {
-      "image": "flowering_shrub_7.jpg",
-      "title": "Rose of Sharon",
-      "rating": 4.7,
-      "price": 24.99,
-      "description": "A hardy flowering shrub with large, hibiscus-like flowers that bloom in late summer.",
-      "addToCartBtn": "Add to Cart",
-      "viewBtn": "View"
+      image: "floweringshrubs/flowering_shrub_7.jpg",
+      title: "Rose of Sharon",
+      rating: 4.7,
+      price: 24.99,
+      description: "A hardy flowering shrub with large, hibiscus-like flowers that bloom in late summer.",
+      addToCartBtn: "Add to Cart",
+      viewBtn: "View"
     },
     {
-      "image": "flowering_shrub_8.jpg",
-      "title": "Butterfly Bush",
-      "rating": 4.8,
-      "price": 28.99,
-      "description": "A fast-growing flowering shrub with long, fragrant flower spikes that attract butterflies.",
-      "addToCartBtn": "Add to Cart",
-      "viewBtn": "View"
+      image: "floweringshrubs/flowering_shrub_8.jpg",
+      title: "Butterfly Bush",
+      rating: 4.8,
+      price: 28.99,
+      description: "A fast-growing flowering shrub with long, fragrant flower spikes that attract butterflies.",
+      addToCartBtn: "Add to Cart",
+      viewBtn: "View"
     },
     {
-      "image": "flowering_shrub_9.jpg",
-      "title": "Mock Orange",
-      "rating": 4.6,
-      "price": 19.99,
-      "description": "A fragrant flowering shrub with white, citrus-scented flowers, perfect for hedges and borders.",
-      "addToCartBtn": "Add to Cart",
-      "viewBtn": "View"
+      image: "floweringshrubs/flowering_shrub_9.png",
+      title: "Mock Orange",
+      rating: 4.6,
+      price: 19.99,
+      description: "A fragrant flowering shrub with white, citrus-scented flowers, perfect for hedges and borders.",
+      addToCartBtn: "Add to Cart",
+      viewBtn: "View"
     },
     {
-      "image": "flowering_shrub_10.jpg",
-      "title": "Weigela",
-      "rating": 4.7,
-      "price": 26.99,
-      "description": "A colorful flowering shrub with trumpet-shaped flowers, perfect for adding color to garden borders.",
-      "addToCartBtn": "Add to Cart",
-      "viewBtn": "View"
+      image: "floweringshrubs/flowering_shrub_10.jpg",
+      title: "Weigela",
+      rating: 4.7,
+      price: 26.99,
+      description: "A colorful flowering shrub with trumpet-shaped flowers, perfect for adding color to garden borders.",
+      addToCartBtn: "Add to Cart",
+      viewBtn: "View"
     },
     {
-      "image": "flowering_shrub_11.jpg",
-      "title": "Spirea",
-      "rating": 4.8,
-      "price": 21.99,
-      "description": "A low-maintenance flowering shrub with clusters of small white or pink flowers.",
-      "addToCartBtn": "Add to Cart",
-      "viewBtn": "View"
+      image: "floweringshrubs/flowering_shrub_11.jpg",
+      title: "Spirea",
+      rating: 4.8,
+      price: 21.99,
+      description: "A low-maintenance flowering shrub with clusters of small white or pink flowers.",
+      addToCartBtn: "Add to Cart",
+      viewBtn: "View"
     },
     {
-      "image": "flowering_shrub_12.jpg",
-      "title": "Viburnum",
-      "rating": 4.9,
-      "price": 32.99,
-      "description": "A versatile flowering shrub with attractive foliage and clusters of white flowers.",
-      "addToCartBtn": "Add to Cart",
-      "viewBtn": "View"
+      image: "floweringshrubs/flowering_shrub_12.jpg",
+      title: "Viburnum",
+      rating: 4.9,
+      price: 32.99,
+      description: "A versatile flowering shrub with attractive foliage and clusters of white flowers.",
+      addToCartBtn: "Add to Cart",
+      viewBtn: "View"
     }
   ]
 export { succulent,outdoor,indoor,flowering };
 
 
-// {
-//     "categoryName": "Indoor",
-//     "products": [
-//       {
-//         "image": "indoor_plant_1.jpg",
-//         "title": "Snake Plant",
-//         "rating": 4.8,
-//         "price": 19.99,
-//         "description": "A hardy indoor plant known for its upright, sword-like leaves, perfect for low light conditions.",
-//         "addToCartBtn": "Add to Cart",
-//         "viewBtn": "View"
-//       },
-//       {
-//         "image": "indoor_plant_2.jpg",
-//         "title": "Monstera Deliciosa",
-//         "rating": 4.9,
-//         "price": 34.99,
-//         "description": "A popular indoor plant with large, split leaves, ideal for adding a tropical touch to your space.",
-//         "addToCartBtn": "Add to Cart",
-//         "viewBtn": "View"
-//       },
-//       {
-//         "image": "indoor_plant_3.jpg",
-//         "title": "Peace Lily",
-//         "rating": 4.7,
-//         "price": 24.99,
-//         "description": "A graceful indoor plant with white blooms, known for its air-purifying properties.",
-//         "addToCartBtn": "Add to Cart",
-//         "viewBtn": "View"
-//       },
-//       {
-//         "image": "indoor_plant_4.jpg",
-//         "title": "ZZ Plant",
-//         "rating": 4.6,
-//         "price": 22.99,
-//         "description": "A low-maintenance indoor plant with glossy leaves, perfect for beginners and low light areas.",
-//         "addToCartBtn": "Add to Cart",
-//         "viewBtn": "View"
-//       },
-//       {
-//         "image": "indoor_plant_5.jpg",
-//         "title": "Fiddle Leaf Fig",
-//         "rating": 4.8,
-//         "price": 39.99,
-//         "description": "A trendy indoor plant with large, violin-shaped leaves, ideal for modern interiors.",
-//         "addToCartBtn": "Add to Cart",
-//         "viewBtn": "View"
-//       },
-//       {
-//         "image": "indoor_plant_6.jpg",
-//         "title": "Spider Plant",
-//         "rating": 4.7,
-//         "price": 18.99,
-//         "description": "A resilient indoor plant with arching leaves and small plantlets, perfect for hanging baskets.",
-//         "addToCartBtn": "Add to Cart",
-//         "viewBtn": "View"
-//       },
-//       {
-//         "image": "indoor_plant_7.jpg",
-//         "title": "Pothos",
-//         "rating": 4.9,
-//         "price": 16.99,
-//         "description": "A versatile indoor plant with trailing vines, known for its ability to thrive in various conditions.",
-//         "addToCartBtn": "Add to Cart",
-//         "viewBtn": "View"
-//       },
-//       {
-//         "image": "indoor_plant_8.jpg",
-//         "title": "Rubber Plant",
-//         "rating": 4.8,
-//         "price": 29.99,
-//         "description": "A striking indoor plant with large, glossy leaves, perfect for adding a touch of green to any room.",
-//         "addToCartBtn": "Add to Cart",
-//         "viewBtn": "View"
-//       },
-//       {
-//         "image": "indoor_plant_9.jpg",
-//         "title": "Chinese Evergreen",
-//         "rating": 4.6,
-//         "price": 21.99,
-//         "description": "A hardy indoor plant with attractive, variegated leaves, ideal for low light environments.",
-//         "addToCartBtn": "Add to Cart",
-//         "viewBtn": "View"
-//       },
-//       {
-//         "image": "indoor_plant_10.jpg",
-//         "title": "Calathea",
-//         "rating": 4.7,
-//         "price": 26.99,
-//         "description": "An indoor plant with stunning, patterned leaves, known for its ability to close at night.",
-//         "addToCartBtn": "Add to Cart",
-//         "viewBtn": "View"
-//       },
-//       {
-//         "image": "indoor_plant_11.jpg",
-//         "title": "Dracaena",
-//         "rating": 4.8,
-//         "price": 23.99,
-//         "description": "A resilient indoor plant with long, slender
-  
-//       }
-//     ]}
