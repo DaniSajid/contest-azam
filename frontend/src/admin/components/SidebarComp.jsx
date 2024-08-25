@@ -41,8 +41,8 @@ const SidebarComp = ({ activeMenuItem, onMenuItemClick }) => {
             <span className="text">Feedback</span>
           </a>
         </li>
-        <li className={activeMenuItem === "Team" ? "active" : ""}>
-          <a href="#" onClick={() => onMenuItemClick("Team")}>
+        <li className={activeMenuItem === "AdminContact" ? "active" : ""}>
+          <a href="#" onClick={() => onMenuItemClick("AdminContact")}>
             <Group />
             <span className="text">Contact</span>
           </a>

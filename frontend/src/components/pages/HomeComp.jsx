@@ -16,6 +16,7 @@ import WorkHistoryIcon from "@mui/icons-material/WorkHistory";
 import CarouselComp from "../carousel/CarouselComp";
 import CardComp from "./card/CardComp";
 import { flowering, indoor, outdoor, succulent } from "../../data";
+import { Link } from "react-router-dom";
 
 function a11yProps(index) {
   return {
@@ -137,6 +138,100 @@ const HomeComp = () => {
           </TabPanel>
         </TabContext>
       </Box>
+      <div className="container my-5">
+            <h3 className="mb-4">Our Top Services</h3>
+            <div className="row">
+                <div className="col-md-4">
+                    <div className="card">
+                        <div className="row g-0">
+                            <div className="col-6 ">
+                                <img src="s1.jpg" className="img-fluid rounded-start" alt="Landscaping" />
+                            </div>
+                            <div className="col-6 d-flex align-items-center">
+                                <div className="card-body">
+                                    <h5 className="card-title">Landscaping</h5>
+                                    <p className="card-text">Lawn Park Housing<br /> Society</p>
+                                    <p className="text-success">Discount <br /><strong>20% Off</strong></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-md-4">
+                    <div className="card my-3">
+                        <div className="row g-0">
+                            <div className="col-6 ">
+                                <img src="s2.jpg" className="img-fluid rounded-start" alt="Lawn Making" />
+                            </div>
+                            <div className="col-6 d-flex align-items-center">
+                                <div className="card-body">
+                                    <h5 className="card-title">Lawn Making</h5>
+                                    <p className="card-text">Restoration Plantation</p>
+                                    <p>Starting From <br /><strong className="text-success">10000 Rs</strong></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-md-4">
+                    <div className="card">
+                        <div className="row g-0">
+                            <div className="col-6">
+                                <img src="s3.jpg" className="img-fluid rounded-start" alt="Office Decor" />
+                            </div>
+                            <div className="col-6 d-flex align-items-center">
+                                <div className="card-body">
+                                    <h5 className="card-title">Office Decor</h5>
+                                    <p className="card-text">Rental Plants<br />Follow up</p>
+                                    <p className="text-success">Discount <br /><strong>10% Off</strong></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div className="container my-5">
+            <h3 className="mb-4">Our Top Categories</h3>
+            <div className="row">
+                <div className="col-md-3 col-sm-6">
+                    <div className="card category-card">
+                        <img src="indoor/indoor_plant_1.png" className="card-img-top" alt="Indoor Plants" />
+                        <div className="card-body">
+                            <p className="card-text">Indoor Plants</p>
+                            <Link to={"/indoor"} className="btn btn-success">View All</Link>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-md-3 col-sm-6">
+                    <div className="card category-card">
+                        <img src="outdoor/outdoor_plant_1.jpg" className="card-img-top" alt="Outdoor Plants" />
+                        <div className="card-body">
+                            <p className="card-text">Outdoor Plants</p>
+                            <Link to={"/outdoor"} className="btn btn-success">View All</Link>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-md-3 col-sm-6">
+                    <div className="card category-card">
+                        <img src="succulent/succulent_plant_1.jpg" className="card-img-top" alt="Flower Plants" />
+                        <div className="card-body">
+                            <p className="card-text">Succulent</p>
+                            <Link to={"/succulent"} className="btn btn-success">View All</Link>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-md-3 col-sm-6">
+                    <div className="card category-card">
+                        <img src="floweringshrubs/flowering_shrub_1.jpeg" className="card-img-top" alt="Concrete Pots" />
+                        <div className="card-body">
+                            <p className="card-text">Flowering Shrubs</p>
+                            <Link to={"/floweringshrubs"} className="btn btn-success">View All</Link>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </>
   );
 };

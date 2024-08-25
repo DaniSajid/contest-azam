@@ -1,15 +1,28 @@
+/* General Settings */
+body {
+  font-family: 'Arial', sans-serif;
+  color: #343a40; /* Dark Gray for text */
+  background-color: #f4f4f9; /* Light background */
+}
+
+/* Image Carousel Styles */
 .img-css-carousel {
   height: 500px;
   width: 100%;
   object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
 .img-carousel-short {
   height: 110px !important;
   width: 110px !important;
   background: none !important;
   object-fit: cover;
   border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
+/* Header and Section Backgrounds */
 .pages-top {
   height: 40vh;
   background-size: cover;
@@ -18,21 +31,215 @@
       rgba(119, 255, 0, 0.712),
       rgba(0, 0, 0, 0.309),
       rgba(249, 237, 7, 0)
-    ),
-    url(/Assest/img/s1.webp);
+  ),
+  url(/Assest/img/s1.webp);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-.des {
+
+/* Centering Content */
+.des, .map {
   width: 100%;
   display: flex;
   justify-content: center;
 }
-.map{
+
+.map {
   height: 490px !important;
-  width: 100% !important;
-  display: flex;
-  justify-content: center;
 }
+
+/* Card Styles */
+.card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+  background-color: #fff; /* Ensure white background */
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+/* Image Inside Cards */
+.img-fluid {
+  height: 100%;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+/* Card Body */
+.card-body {
+  padding: 15px;
+  text-align: left;
+  background-color: #fff;
+}
+
+/* Titles and Texts */
+h5.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #343a40;
+}
+
+.card-text {
+  margin-bottom: 10px;
+  color: #6c757d; /* Muted text color */
+}
+
+/* Success Text */
+.text-success {
+  color: #28a745 !important;
+}
+
+/* Category Cards */
+.category-card {
+  border: 1px solid #e1e1e1;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+  background-color: #fff;
+}
+
+.category-card:hover {
+  transform: translateY(-5px);
+}
+
+.card-img-top {
+  height: 180px;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+/* Text inside Category Cards */
+.card-body {
+  text-align: center;
+  padding: 10px;
+}
+
+.card-text {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #343a40;
+}
+
+/* Section Titles */
+h3 {
+  color: #343a40;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 30px;
+  font-family: 'Arial', sans-serif;
+}
+/* header footer  */
+header {
+  background-color: #4caf50; /* Earthy green */
+  color: #ffffff; /* White text */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header a {
+  color: #ffffff; /* White text for links */
+}
+.img-logo-header{
+  height: 100px !important;
+  width: 80px !important;
+}
+header .dropdown-menu {
+  background-color: #f1f1f1; /* Light gray background for dropdown */
+  color: #2d2d2d; /* Dark gray text */
+}
+
+header .dropdown-item:hover {
+  background-color: #4caf50; /* Green hover effect */
+  color: #ffffff; /* White text */
+}
+
+header .form-control {
+  border-radius: 20px;
+  border: 1px solid #ddd; /* Subtle border */
+}
+
+header .btn {
+  background-color: #2e7d32; /* Darker green button */
+  border: none;
+  border-radius: 20px;
+  color: #ffffff;
+}
+
+header .btn:hover {
+  background-color: #1b5e20; /* Darker hover */
+}
+
+/* Badge Styling */
+.MuiBadge-badge {
+  background-color: #ff6f00 !important; /* Accent orange */
+  color: #ffffff !important;
+}
+
+/* Footer Styles */
+
+
+footer h5 {
+  color: #f1f1f1; /* Slightly lighter text */
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer ul li {
+  margin-bottom: 10px;
+}
+
+footer ul li a {
+  color: #c8e6c9; /* Light green text for links */
+  text-decoration: none;
+}
+
+footer ul li a:hover {
+  color: #ffffff; /* White on hover */
+}
+
+footer form {
+  margin-top: 20px;
+}
+
+footer form .form-control {
+  border-radius: 20px;
+  border: 1px solid #ddd;
+}
+
+footer form .btn {
+  background-color: #81c784 ; /* Softer green */
+  border: none;
+  border-radius: 20px;
+  color: #ffffff;
+}
+
+footer form .btn:hover {
+  background-color: #66bb6a; /* Slightly darker green on hover */
+}
+
+footer .border-top {
+  border-color: #ffffff;
+}
+
+footer .list-unstyled a {
+  color: #c8e6c9; /* Light green */
+}
+
+footer .list-unstyled a:hover {
+  color: #ffffff;
+}
+/* heder footer end  */

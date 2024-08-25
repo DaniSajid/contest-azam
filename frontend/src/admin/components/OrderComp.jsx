@@ -7,7 +7,7 @@ const OrderComp = () => {
         <i className='bx bx-search'></i>
         <i className='bx bx-filter'></i>
       </div>
-      <table>
+      <table >
         <thead>
           <tr>
             <th>Customer</th>

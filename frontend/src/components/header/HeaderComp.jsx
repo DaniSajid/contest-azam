@@ -25,28 +25,28 @@ const HeaderComp = () => {
     navigate("/account"); 
   };
   return (
-    <header className="p-3  border-bottom">
+    <header className="p-3  border-bottom bg-success">
       <div className="container">
         <div className="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
           <a
             href="/"
             className="d-flex align-items-center mb-2 mb-lg-0 link-body-emphasis text-decoration-none"
           >
-            Navbar
+            <h5 className="text-white ">Plant Palace</h5>
           </a>
 
           <ul className="nav col-12 col-lg-auto mx-lg-auto mb-2 justify-content-center mb-md-0">
             <ItemsComp path={"/"} name={"Home"} />
             <li className="nav-item dropdown">
               <Link
-                className="nav-link dropdown-toggle text-dark"
+                className="nav-link dropdown-toggle text-white"
                 role="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
                 Category
               </Link>
-              <ul className="dropdown-menu">
+              <ul className="dropdown-menu bg-success">
                 <ItemsComp path={"/indoor"}  name={"Indoor"} />
                 <ItemsComp path={"/outdoor"}  name={"Outdoor"} />
                 <ItemsComp path={"/succulent"}  name={"Succulent"} />

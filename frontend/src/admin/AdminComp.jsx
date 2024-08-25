@@ -4,6 +4,8 @@ import NavbarComp from "./components/NavbarComp";
 import SidebarComp from "./components/SidebarComp";
 import AddProduct from "./components/AddProduct";
 import "./admin.css";
+import AdminContact from "./components/AdminContact";
+import AdminFeedback from "./components/AdminFeedback";
 
 const AdminComp = () => {
   const [activeMenuItem, setActiveMenuItem] = useState('Dashboard');
@@ -53,6 +55,10 @@ const AdminComp = () => {
         return <DashboardComp />;
       case 'Add Product':
         return <AddProduct />;
+      case 'AdminContact':
+        return <AdminContact />;
+      case 'Message':
+        return <AdminFeedback />;
       default:
         return <DashboardComp />;
     }

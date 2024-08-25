@@ -1,5 +1,6 @@
 const AddProduct = () => {
     return (
+      <main>
       <form className="col-6 offset-3 my-5" encType="multipart/form-data"> 
         <div className="mb-3">
           <label htmlFor="productTitle" className="form-label">Product Title</label>
@@ -36,6 +37,7 @@ const AddProduct = () => {
         </div>                
         <button type="submit" className="btn btn-primary">Submit</button>
       </form>
+      </main>
     )
   }
   
