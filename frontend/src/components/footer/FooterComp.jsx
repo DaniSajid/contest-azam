@@ -1,3 +1,4 @@
+import FooterItem from "./FooterItem"
 
 
 const FooterComp = () => {
@@ -6,35 +7,29 @@ const FooterComp = () => {
     <footer className="py-5">
       <div className="row">
         <div className="col-6 col-md-2 mb-3">
-          <h5>Section</h5>
+          <h5>Pages</h5>
           <ul className="nav flex-column">
-            <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">Home</a></li>
-            <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">Features</a></li>
-            <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">Pricing</a></li>
-            <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">FAQs</a></li>
-            <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">About</a></li>
+           <FooterItem name={"Home"} path={"/"} />
+           <FooterItem name={"About"} path={"/about"} />
+           <FooterItem name={"Contact"} path={"/contact"} />
+           <FooterItem name={"Feedback"} path={"/feedback"} />
           </ul>
         </div>
   
         <div className="col-6 col-md-2 mb-3">
-          <h5>Section</h5>
+          <h5>Category</h5>
           <ul className="nav flex-column">
-            <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">Home</a></li>
-            <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">Features</a></li>
-            <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">Pricing</a></li>
-            <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">FAQs</a></li>
-            <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">About</a></li>
+          <FooterItem name={"Indoor"} path={"/indoor"} />
+           <FooterItem name={"Outdoor"} path={"/outdoor"} />
+           <FooterItem name={"Succulent"} path={"/succulent"} />
+           <FooterItem name={"Flowering Shrubs"} path={"/floweringshrubs"} />
           </ul>
         </div>
   
         <div className="col-6 col-md-2 mb-3">
-          <h5>Section</h5>
+          <h5>Account</h5>
           <ul className="nav flex-column">
-            <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">Home</a></li>
-            <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">Features</a></li>
-            <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">Pricing</a></li>
-            <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">FAQs</a></li>
-            <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">About</a></li>
+          <FooterItem name={"Account"} path={"/account"} />
           </ul>
         </div>
   
