@@ -14,6 +14,7 @@ import FloweringComp from "./components/pages/category/FloweringComp";
 import Cookies from "js-cookie";
 import ShoppingCartComp from "./components/cart/ShoppingCartComp";
 import AdminComp from "./admin/AdminComp";
+import { CartProvider } from "./components/context/ContextComp";
 
 // Other imports remain the same...
 
@@ -38,6 +39,7 @@ function AppContent() {
 
   return (
     <>
+    <CartProvider>
       {!isAdminRoute && <HeaderComp />}
       <Routes>
         <Route path="/admin" element={<AdminComp />} />
@@ -53,6 +55,7 @@ function AppContent() {
         <Route path="/shoppingCart" element={<ShoppingCartComp />} />
       </Routes>
       {!isAdminRoute && <FooterComp />}
+      </CartProvider>
     </>
   );
 }

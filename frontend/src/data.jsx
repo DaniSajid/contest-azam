@@ -245,6 +245,8 @@ let outdoor = [
 ]
 let indoor = [
     {
+
+      id:1,
       image: "indoor/indoor_plant_1.png",
       title: "Snake Plant",
       rating: 4.8,
@@ -254,6 +256,7 @@ let indoor = [
       viewBtn: "View"
     },
     {
+      id:2,
       image: "indoor/indoor_plant_2.png",
       title: "Peace Lily",
       rating: 4.7,
@@ -263,6 +266,7 @@ let indoor = [
       viewBtn: "View"
     },
     {
+      id:3,
       image: "indoor/indoor_plant_3.png",
       title: "Fiddle Leaf Fig",
       rating: 4.9,
@@ -272,6 +276,7 @@ let indoor = [
       viewBtn: "View"
     },
     {
+      id:4,
       image: "indoor/indoor_plant_4.png",
       title: "Spider Plant",
       rating: 4.6,
@@ -281,6 +286,7 @@ let indoor = [
       viewBtn: "View"
     },
     {
+      id:5,
       image: "indoor/indoor_plant_5.png",
       title: "Monstera Deliciosa",
       rating: 4.8,
@@ -290,6 +296,7 @@ let indoor = [
       viewBtn: "View"
     },
     {
+      id:6,
       image: "indoor/indoor_plant_6.png",
       title: "ZZ Plant",
       rating: 4.7,
@@ -299,6 +306,7 @@ let indoor = [
       viewBtn: "View"
     },
     {
+      id:7,
       image: "indoor/indoor_plant_7.jpg",
       title: "Parlor Palm",
       rating: 4.7,
@@ -308,6 +316,7 @@ let indoor = [
       viewBtn: "View"
     },
     {
+      id:8,
       image: "indoor/indoor_plant_8.jpg",
       title: "Boston Fern",
       rating: 4.5,
@@ -317,6 +326,7 @@ let indoor = [
       viewBtn: "View"
     },
     {
+      id:9,
       image: "indoor/indoor_plant_9.jpg",
       title: "Pothos",
       rating: 4.9,
@@ -326,6 +336,7 @@ let indoor = [
       viewBtn: "View"
     },
     {
+      id:10,
       image: "indoor/indoor_plant_10.jpg",
       title: "Rubber Plant",
       rating: 4.6,
@@ -335,6 +346,7 @@ let indoor = [
       viewBtn: "View"
     },
     {
+      id:11,
       image: "indoor/indoor_plant_11.png",
       title: "Chinese Evergreen",
       rating: 4.7,
@@ -344,6 +356,7 @@ let indoor = [
       viewBtn: "View"
     },
     {
+      id:12,
       image: "indoor/indoor_plant_12.jpg",
       title: "Calathea",
       rating: 4.6,
@@ -463,6 +476,53 @@ let indoor = [
       viewBtn: "View"
     }
   ]
-export { succulent,outdoor,indoor,flowering };
+  let BrandData = [
+    {
+        name : "Creavif",
+        imagePath : "brandImages/b1.png"
+    },
+    {
+        name : "reddot",
+        imagePath : "brandImages/b2.png"
+    },
+    {
+        name : "ukinox",
+        imagePath : "brandImages/b3.png"
+    },
+    {
+        name : "zipponi",
+        imagePath : "brandImages/b4.png"
+    },
+    {
+        name : "meroeurope",
+        imagePath : "brandImages/b5.png"
+    },
+    {
+        name : "pate",
+        imagePath : "brandImages/b6.png"
+    },
+    {
+        name : "Vitra",
+        imagePath : "brandImages/b7.png"
+    },
+    {
+        name : "Rebook",
+        imagePath : "brandImages/b8.png"
+    },
+    {
+        name : "adidas",
+        imagePath : "brandImages/b9.png"
+    },
+    {
+        name : "Calvin Klein",
+        imagePath : "brandImages/b10.png"
+    },
+    {
+        name : "Wardah",
+        imagePath : "brandImages/b11.png"
+    },
+    
+]
+export { succulent,outdoor,indoor,flowering,BrandData };
 
 

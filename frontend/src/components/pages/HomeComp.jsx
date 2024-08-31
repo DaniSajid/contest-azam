@@ -17,6 +17,8 @@ import CarouselComp from "../carousel/CarouselComp";
 import CardComp from "./card/CardComp";
 import { flowering, indoor, outdoor, succulent } from "../../data";
 import { Link } from "react-router-dom";
+import BrandComp from "./homecomp/BrandComp";
+import BtnComp from "../reusable/BtnComp";
 
 function a11yProps(index) {
   return {
@@ -232,6 +234,12 @@ const HomeComp = () => {
                 </div>
             </div>
         </div>
+        <div className="container my-3">
+        <BrandComp />
+        <div className="w-100 d-flex justify-content-center">
+          <BtnComp  variant="contained" name="more brands" />
+        </div>
+      </div>
     </>
   );
 };
